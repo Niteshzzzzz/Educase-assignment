@@ -15,7 +15,7 @@ function CreateAccount() {
         <div className="w-[375px] min-h-[612px] border-2 rounded border-[#F7F8F9] flex flex-col bg-[#F7F8F9]">
             <form action="" className='h-[612px] px-4 py-6 flex flex-col justify-between'>
                 <div className="">
-                    <h2 className='text-[28px] font-semibold mb-6'>Create your PopX account</h2>
+                    <h2 className='text-[28px] font-bold mb-6'>Create your PopX account</h2>
                     <div className="">
                         <InputField label={'Full Name'} />
                         <InputField label={'Phone number'} />
