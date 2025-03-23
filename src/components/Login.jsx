@@ -7,8 +7,8 @@ function Login() {
       <form action="/account">
         <h2 className='text-[28px] font-bold'>Welcome to PopX</h2>
         <p className='text-lg opacity-60 mb-10'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <InputField label={'Email address'} />
-        <InputField label={'Password'} />
+        <InputField label={'Email address'} type={'email'} />
+        <InputField label={'Password'} type={'password'} />
         <button className='w-full bg-[#CBCBCB] mt-1 text-white flex justify-center items-center p-2 text-base rounded'>Login</button>
       </form>
     </div>
