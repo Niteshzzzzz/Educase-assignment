@@ -23,7 +23,7 @@ function CreateAccount() {
                         <InputField label={'Password'} />
                         <InputField label={'Company name'} />
                         <div className="">
-                            <h3 className='text-sm'>Are you an Agency? <sup className='text-[#DD4A3D]'>*</sup></h3>
+                            <h3 className='text-sm mb-1 mt-[-10px]'>Are you an Agency? <sup className='text-[#DD4A3D]'>*</sup></h3>
                             <label className='mr-4 text-sm'>
                                 <input
                                     type="radio"
@@ -31,7 +31,7 @@ function CreateAccount() {
                                     value="option1"
                                     checked={selectedOption === "option1"}
                                     onChange={handleChange}
-                                    className='scale-[1.5] mr-2 ml-1 accent-[#642AF5]'
+                                    className='scale-[1.4] mr-2 ml-1 accent-[#642AF5]'
                                 />
                                 Yes
                             </label>
@@ -43,7 +43,7 @@ function CreateAccount() {
                                     value="option2"
                                     checked={selectedOption === "option2"}
                                     onChange={handleChange}
-                                    className='scale-[1.5] mr-2 accent-[#642AF5]'
+                                    className='scale-[1.4] mr-2 accent-[#642AF5]'
                                 />
                                 No
                             </label>
